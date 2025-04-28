@@ -1,0 +1,79 @@
+[
+  {
+    "facilityId": "CPT",
+    "unitId": "CT-001",
+    "size": "Locker",
+    "status": "Available",
+    "price": 500,
+    "discounts": [
+      { "type": "Seasonal", "amount": 50, "description": "Winter special" },
+      { "type": "Bulk", "amount": 100, "description": "Rent 3 months upfront" }
+    ]
+  },
+  {
+    "facilityId": "CPT",
+    "unitId": "CT-002",
+    "size": "Garage",
+    "status": "Available",
+    "price": 1000,
+    "discounts": [
+      {
+        "type": "EarlyBird",
+        "amount": 75,
+        "description": "Sign up before Jan 2025"
+      }
+    ]
+  },
+  {
+    "facilityId": "JHB",
+    "unitId": "JHB-001",
+    "size": "Locker",
+    "status": "Available",
+    "price": 450,
+    "discounts": [
+      {
+        "type": "Weekend",
+        "amount": 30,
+        "description": "Book during Black Friday"
+      }
+    ]
+  },
+  {
+    "facilityId": "JHB",
+    "unitId": "JHB-002",
+    "size": "Garage",
+    "status": "Available",
+    "price": 950,
+    "discounts": [
+      {
+        "type": "LongTerm",
+        "amount": 200,
+        "description": "1-year contract discount"
+      }
+    ]
+  },
+  {
+    "facilityId": "DBN",
+    "unitId": "DBN-001",
+    "size": "Locker",
+    "status": "Available",
+    "price": 400,
+    "discounts": [
+      { "type": "Promo", "amount": 25, "description": "Launch promotion" }
+    ]
+  },
+  {
+    "facilityId": "DBN",
+    "unitId": "DBN-002",
+    "size": "Garage",
+    "status": "Available",
+    "price": 800,
+    "discounts": [
+      {
+        "type": "Referral",
+        "amount": 50,
+        "description": "Refer a friend and save"
+      }
+    ]
+  }
+]
