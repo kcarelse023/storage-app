@@ -2,59 +2,48 @@
 A serverless web application for renting storage units. Built with a React frontend and powered by AWS services for scalable, secure, and low-maintenance backend infrastructure.
 
 🚀 Features
-Admins can:
+- Admins can:
 
-Create and manage storage units
+ - Create and manage storage units
 
-Users can:
+- Users can:
 
-Browse and rent available storage units
+ - Browse and rent available storage units
 
 🛠 Tech Stack
 Frontend
-React with Vite
+- React with Vite
 
 Hosted as a static site via AWS CloudFront
 
 Backend
-AWS Lambda for serverless business logic
+- AWS Lambda for serverless business logic
 
-AWS DynamoDB (NoSQL) for storage unit and user data
+- AWS DynamoDB (NoSQL) for storage unit and user data
 
-AWS Cognito for authentication (admin & user roles)
+- AWS Cognito for authentication (admin & user roles)
 
-AWS S3 for file storage (e.g. images of storage units)
+- AWS S3 for file storage (e.g. images of storage units)
 
 🌐 Deployment
-This project is fully hosted on Amazon Web Services using a serverless architecture.
+- This project is fully hosted on Amazon Web Services using a serverless architecture.
 
 📁 Project Structure (High-Level)
-bash
-Copy
-Edit
-/frontend       → React + Vite app (static site)
-/backend        → Lambda functions (API logic)
-/infrastructure → IaC / deployment scripts (optional)
-/README.md
+
+- /frontend       → React + Vite app (static site)
+- /backend        → Lambda functions (API logic)
+- /infrastructure → IaC / deployment scripts (optional)
+- /README.md
 🧪 Getting Started
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/storage-rental-app.git
 Install frontend dependencies:
 
-bash
-Copy
-Edit
 cd frontend
 npm install
 Start the dev server:
 
-bash
-Copy
-Edit
 npm run dev
 ⚠️ To run backend locally or deploy, ensure you have AWS CLI set up and configured with appropriate permissions.
 
